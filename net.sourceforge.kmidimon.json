@@ -53,8 +53,8 @@
       "sources": [
         {
           "type": "archive",
-          "url": "https://downloads.sourceforge.net/project/drumstick/2.5.0/drumstick-2.5.0.tar.bz2",
-          "sha256": "8709d8a7c438c1d09091827ce5fd8286d387a046a8f717a1a34546d9ca3d902a"
+          "url": "https://downloads.sourceforge.net/project/drumstick/2.6.0/drumstick-2.6.0.tar.bz2",
+          "sha256": "f2bf804b97a63f001b28eedebc87897756e222ea1fa16f26ef244fe2695ce98a"
         }
       ]
     },
@@ -65,8 +65,8 @@
       "sources": [
         {
           "type": "archive",
-          "url": "http://downloads.sourceforge.net/project/kmidimon/1.2.0/kmidimon-1.2.0.tar.bz2",
-          "sha256": "80540344717d083f170fc6687d3f0f553e45e9c93eecab7371b7f3d7af0b5296" 
+          "url": "http://downloads.sourceforge.net/project/kmidimon/1.3.0/kmidimon-1.3.0.tar.bz2",
+          "sha256": "80d7e4d45bb748b58ae717c2f7f55f27f080ef86824f5ad03e116425d1d559b9"
         }
       ]
     }
