@@ -1,7 +1,7 @@
 {
   "app-id": "net.sourceforge.kmidimon",
   "runtime": "org.kde.Platform",
-  "runtime-version": "6.3",
+  "runtime-version": "6.5",
   "sdk": "org.kde.Sdk",
   "command": "kmidimon",
   "rename-icon": "kmidimon",
@@ -26,21 +26,6 @@
     "*.la"
   ],
   "modules": [
-    {
-        "name": "qt6-qt5compat",
-        "buildsystem": "cmake-ninja",
-        "sources": [
-            {
-                "type": "archive",
-                "url": "https://download.qt.io/official_releases/qt/6.3/6.3.1/submodules/qt5compat-everywhere-src-6.3.1.tar.xz",
-                "sha256": "a43ec62bd778eaecf88ad7847118d1c2a471b0fcb820f93beb311d7ab9566cfd"
-            },
-            {
-                "type": "patch",
-                "path": "install_libdir.patch"
-            }
-        ]
-    },
     {
       "name": "drumstick",
       "buildsystem": "cmake-ninja",
@@ -69,8 +54,8 @@
       "sources": [
         {
           "type": "archive",
-          "url": "https://downloads.sourceforge.net/project/drumstick/2.7.0/drumstick-2.7.0.tar.bz2",
-          "sha256": "61be52ad727964ad0827c5db9f10062e57ea2863ab7efd95113f416bc74a22d5"
+          "url": "https://downloads.sourceforge.net/project/drumstick/2.8.0/drumstick-2.8.0.tar.gz",
+          "sha256": "8b385f629a39af559974e3cc1d6b5ec5cc9bfff2f210b57d2b6fe70a5cb0aed2"
         }
       ]
     },
