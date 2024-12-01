@@ -1,7 +1,7 @@
 {
   "app-id": "net.sourceforge.kmidimon",
   "runtime": "org.kde.Platform",
-  "runtime-version": "6.6",
+  "runtime-version": "6.8",
   "sdk": "org.kde.Sdk",
   "command": "kmidimon",
   "rename-icon": "kmidimon",
@@ -54,8 +54,8 @@
       "sources": [
         {
           "type": "archive",
-          "url": "https://downloads.sourceforge.net/project/drumstick/2.9.0/drumstick-2.9.0.tar.gz",
-          "sha256": "b2692d3f96a1537ecf3a81dcad5c88ff700fc0af400dc2570cce19cb6cd1023a"
+          "url": "https://downloads.sourceforge.net/project/drumstick/2.9.1/drumstick-2.9.1.tar.bz2",
+          "sha256": "5390a6f694c3c42f0dcf241f8da0bf78104351610b5788eae28bf840679f33d8"
         }
       ]
     },
