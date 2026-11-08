@@ -1,22 +1,17 @@
 {
   "app-id": "net.sourceforge.kmidimon",
   "runtime": "org.kde.Platform",
-  "runtime-version": "6.10",
+  "runtime-version": "6.11",
   "sdk": "org.kde.Sdk",
   "command": "kmidimon",
   "rename-icon": "kmidimon",
   "finish-args": [
-    /* X11 + XShm access */
     "--share=ipc",
     "--socket=wayland",
     "--socket=fallback-x11",
-    /* MIDI */
     "--device=all",
-    /* Allow loading, saving files from anywhere (portals don’t work yet) */
     "--filesystem=home",
-    /* Allow other instances to see lockfiles */
     "--env=TMPDIR=/var/tmp",
-    /* On SuSE it seems to be necessary for sound to work */
     "--env=ALSA_CONFIG_PATH="
   ],
   "cleanup": [
@@ -54,8 +49,8 @@
       "sources": [
         {
           "type": "archive",
-          "url": "https://downloads.sourceforge.net/project/drumstick/2.10.0/drumstick-2.10.0.tar.gz",
-          "sha256": "92f5fc2a94b8c9067200897fd14027f707bf0103871ea942e388f9afe95e0f34"
+          "url": "https://downloads.sourceforge.net/project/drumstick/2.11.2/drumstick-2.11.2.tar.gz",
+          "sha256": "0a40d1bdd301c8e1138578474cf93a923013265503c513b53ce83d043d443ce8"
         }
       ]
     },
@@ -66,8 +61,8 @@
       "sources": [
         {
           "type": "archive",
-          "url": "http://downloads.sourceforge.net/project/kmidimon/1.4.1/kmidimon-1.4.1.tar.gz",
-          "sha256": "5fe014a24773157f074d2a621b3978066cde6019964a5291cdfaee0725399695"
+          "url": "http://downloads.sourceforge.net/project/kmidimon/1.4.2/kmidimon-1.4.2.tar.gz",
+          "sha256": "c64ae5fee6897432e296e1f492b18985c435f6e7efc533496de5f7bf515ebf68"
         }
       ]
     }
